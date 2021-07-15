@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library App</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header>
+        <div class="heading">
+            <h1>Library</h1>
+        </div>
+    </header>
+
+    <section>
+        <div class="new_book">
+            <button id="myBtn">Add new book</button>
+        </div>
+    </section>
+    
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+           
+                <div class="data_form">
+                    <h2>Add New Book</h2>
+                    <input type="text" id="title"  placeholder="Add Title">
+                    <input type="text" id="author" placeholder=" Add Author">
+                    <input type="text" id="pages"  placeholder="Add Pages">
+                    <div class="option">
+                        <label for="html">Read?</label><br>
+                        <input type="checkbox" id="read">
+                    </div>
+                    <button id="add_button">
+                        add
+                    </button>
+                </div>
+        </div>
+    </div>
+
+    <!-- Display data -->
+    <div class="container">
+    </div>
+
+
+
+
+    
+
+
+
+
+
+
+
+    <script src="./app.js"></script>
+
+
+</body>
+</html>
